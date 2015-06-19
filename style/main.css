@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+footer p{
+		text-align: center;
+	}
+
+header nav ul li {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
+
+header {
+	background: #333;
+	padding-left: 80px;
+	height: 100px;
+}
+
+header ul li a {
+	color: #fff;
+	font-size: 2rem;
+	line-height: 100px;
+}
+
+header ul li a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.form-wrap {
+	max-width: 400px;
+	padding: 20px;
+	background: #fff;
+	margin: 50px auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-wrap label,
+.form-wrap input,
+.form-wrap textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form-wrap input[name="contact_submit"] {
+	width: 100%;
+	background: #2ecc71;
+	height: 50px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 3rem;
+	border: 1px solid #2ecc71;
+}
+
+
+
